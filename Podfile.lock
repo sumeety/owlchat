@@ -1,0 +1,21 @@
+PODS:
+  - Bolts (1.1.5):
+    - Bolts/AppLinks (= 1.1.5)
+    - Bolts/Tasks (= 1.1.5)
+  - Bolts/AppLinks (1.1.5):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.1.5)
+  - Facebook-iOS-SDK (3.16.1):
+    - Bolts
+  - Google-Mobile-Ads-SDK (7.2.2)
+
+DEPENDENCIES:
+  - Facebook-iOS-SDK (= 3.16.1)
+  - Google-Mobile-Ads-SDK (~> 7.0)
+
+SPEC CHECKSUMS:
+  Bolts: aac24961496d504aa56fc267cde95162a71bac39
+  Facebook-iOS-SDK: 6960999975eca40ab6a44efdcccee29b80abdf50
+  Google-Mobile-Ads-SDK: 9561b27b8dd2ef861ee74b4c1ba77104c4c5414a
+
+COCOAPODS: 0.37.2

@@ -1,0 +1,37 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+
+//#define kwebUrl @"http://54.69.188.135:9090"
+//#define kwebUrl @"http://54.148.138.187:9090/hoothere"
+
+#define kHostName @"192.168.1.30"
+#define kDomainName @"@127.0.0.1"
+#define kGroupChatDomain @"conference.127.0.0.1"
+#define kPortName @"5222"
+#define kwebUrl @"http://192.168.1.30:9090/hoothere"
+
+// URL for XMPP
+#define BaseURL @"http://192.168.1.30:8080/OwlChatServices"
+
+//#define kwebUrl @"http://192.168.0.113:9090"
+//#define kwebUrl @"http://54.148.51.121:9090"
+
+//Added 9th May 2015 for Client Testing
+//#define kHostName @"122.173.182.105"
+//#define kwebUrl @"http://122.173.182.105:9090/hoothere"
+#endif
